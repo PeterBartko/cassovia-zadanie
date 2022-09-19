@@ -23,7 +23,7 @@ const SearchPanel: React.FC<Props> = ({ show, setSelected }) => {
           type="text"
           placeholder="Search city..."
           onInput={e => setSearch(e.currentTarget.value)}
-          className="bg-[#f3f3f3] w-full py-2 px-4 rounded-md font-medium placeholder:italic placeholder:!font-extralight"
+          className="bg-[#f3f3f3] w-full py-2 px-4 rounded-md font-medium placeholder:italic"
         />
         <img src={pin} alt="map pin." className="absolute top-2 right-4 translate-y-1/4" />
       </div>

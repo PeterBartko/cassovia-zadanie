@@ -98,7 +98,7 @@ const WeatherPanel: React.FC<Props> = ({ show, selected }) => {
         {weather?.nextDays?.map(({ date, desc, max, min }) => (
           <div
             key={date}
-            className="grid place-content-center text-center shadow-day rounded-2xl w-[95px] h-[101px]"
+            className="grid place-content-center text-center shadow-xl rounded-2xl w-[95px] h-[101px]"
           >
             <div>
               <WeatherIcon desc={desc} size={24} />
